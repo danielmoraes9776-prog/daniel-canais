@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Daniel Canais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Daniel Canais</header>
+
+<section class="catalog" id="catalog"></section>
+
+<script src="movies.js"></script>
+<script src="app.js"></script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+</body>
+</html>
+
