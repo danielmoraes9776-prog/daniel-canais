@@ -25,9 +25,13 @@ header {
   text-align: center;
 }
 
-.movie img {
+.poster {
   width: 100%;
+  aspect-ratio: 2 / 3;
+  background-size: cover;
+  background-position: center;
   border-radius: 8px;
+  background-color: #111;
 }
 
 .movie h3 {
